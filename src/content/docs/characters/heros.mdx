@@ -1,0 +1,136 @@
+---
+title: Les Héros
+description: Fiches des personnages jouables.
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+    <Card title="Le Chevalier" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 1 potion (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 1 case</li>
+            <li>Distance d'attaque : 1 case</li>
+            <li>Attaque : 2D6 5 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dep + 1 case</li>
+            <li>lvl 2 : Vie + 1</li>
+            <li>lvl 3 : Att + 1D6 / Dep + 1 case</li>
+            <li>lvl 4 : Vie + 1 / Dep + 1 case</li>
+            <li>lvl 5 : Att + 2D6 / Dist + 2 cases</li>
+        </ul>
+    </Card>
+    <Card title="Le Gardien" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 1 potion (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 1 case</li>
+            <li>Distance d'attaque : 1 case</li>
+            <li>Attaque : 2D6 5 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dist + 2</li>
+            <li>lvl 2 : Soin + 1</li>
+            <li>lvl 3 : Att + 1D6</li>
+            <li>lvl 4 : Vie + 1 / Dep + 1</li>
+            <li>lvl 5 : Vie + 1 / Att + 2D6</li>
+        </ul>
+    </Card>
+    <Card title="Le Mage" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 2 potions (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 1 case</li>
+            <li>Distance d'attaque : 2 cases</li>
+            <li>Attaque : 1D6 4 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dist + 1</li>
+            <li>lvl 2 : Soin + 2</li>
+            <li>lvl 3 : Att + 1D6 / Dist + 1</li>
+            <li>lvl 4 : Dep + 1 / Soin + 1</li>
+            <li>lvl 5 : Att + 1D6 / Dist + 1</li>
+        </ul>
+    </Card>
+    <Card title="L'Archer" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 1 potion (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 1 case</li>
+            <li>Distance d'attaque : 3 cases</li>
+            <li>Attaque : 1D6 4 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dep + 1</li>
+            <li>lvl 2 : Dist + 1</li>
+            <li>lvl 3 : Att + 1D6 / Vie + 1</li>
+            <li>lvl 4 : Dep + 1 / Dist + 1</li>
+            <li>lvl 5 : Att + 1D6 / Vie + 1</li>
+        </ul>
+    </Card>
+    <Card title="L'Alchimiste" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 2 potions (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 1 case</li>
+            <li>Distance d'attaque : 2 case</li>
+            <li>Attaque : 2D6 5 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dist + 1</li>
+            <li>lvl 2 : Att + 1D6</li>
+            <li>lvl 3 : Soin + 1 / Dep + 1</li>
+            <li>lvl 4 : Att + 1D6 / Soin + 2</li>
+            <li>lvl 5 : Att + 2D6 / Dist + 1</li>
+        </ul>
+    </Card>
+    <Card title="Le Voleur" icon="document">
+        <ul>
+            <li>Vie : 3</li>
+            <li>Soin : 1 potion (1 potion restaure 1 vie)</li>
+            <li>Déplacement : 2 cases</li>
+            <li>Distance d'attaque : 1 case</li>
+            <li>Attaque : 1D6 4 ou plus</li>
+        </ul>
+        <h6>Les Niveaux</h6>
+        <ul>
+            <li>lvl 1 : Dep + 1</li>
+            <li>lvl 2 : Att + 1D6</li>
+            <li>lvl 3 : Soin + 1 / Dep + 1</li>
+            <li>lvl 4 : Att + 1D6 / Soin + 2</li>
+            <li>lvl 5 : Att + 2D6 / Dep + 1</li>
+        </ul>
+    </Card>
+    <Card title="Le Chat" icon="document">
+        <ul>
+            <li>Vie : 9</li>
+            <li>Déplacement : 5 cases</li>
+            <li>Distance d'attaque : 5 cases</li>
+            <li>Attaque : Griffes 1D6 5 ou plus</li>
+            <li>Aptitudes :</li>
+            <ul>
+                <li>Trou de souris : Peut traverser un mur 1D6 5 ou plus</li>
+                <li>
+                    Ronron : Restaure 1 vie en restant sur la case d'un joueur
+                </li>
+            </ul>
+        </ul>
+    </Card>
+    <Card title="Les Plus" icon="star">
+        <ul>
+            <li>
+                A chaque fois que vous gagnez un 1 dé d'attaque vous enlever un
+                point de proba (Si "1D6 4 ou plus" de base alors on serait à 2D6
+                3 ou plus en gagnant 1 dé d'attaque )
+            </li>
+            <li>Aux lvls 3 et 5 vous gagnez 1 action supplémentaire</li>
+        </ul>
+    </Card>
+</CardGrid>

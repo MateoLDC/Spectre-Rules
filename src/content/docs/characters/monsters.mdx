@@ -1,0 +1,66 @@
+---
+title: Les Spectres
+description: Fiches des monstres à combattre.
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+    <Card title="La Feuille de boucher" icon="document">
+        <ul>
+            <li>Apparition : Jouer 1D4</li>
+            <ul>
+                <li>1 = 1 feuille</li>
+                <li>2 = 2 feuilles</li>
+                <li>3 = 3 feuilles</li>
+                <li>4 = devine</li>
+            </ul>
+            <li>Déplacement : 1 case par tour</li>
+            <li>Dégats : 1 vie</li>
+        </ul>
+    </Card>
+    <Card title="Le Couteau de Cuisine" icon="document">
+        <ul>
+            <li>Apparition : Jouer 1D4</li>
+            <ul>
+                <li>Pair = 2 couteaux</li>
+                <li>Impair = 1 couteau</li>
+            </ul>
+            <li>Déplacement : 2 cases par tour</li>
+            <li>Dégats : 1 vie</li>
+        </ul>
+    </Card>
+    <Card title="La Masse" icon="document">
+        <ul>
+            <li>Apparition : Tous les 5 tours ou invoqué par le Nécromancien</li>
+            <li>Déplacement : 1 case par tour</li>
+            <li>Dégats : 2 vies</li>
+        </ul>
+    </Card>
+    <Card title="Le Necromancien" icon="document">
+        <ul>
+            <li>Apparition : Tous les 3 tours</li>
+            <li>Déplacement : 1 case par tour</li>
+            <li>Dégats : 1 vie</li>
+            <li>
+                Nécromancie : invoque un monstre sur sa case à chaque tour --> 1D4
+            </li>
+            <ul>
+                <li>1 ou 4 = Feuille de boucher x2</li>
+                <li>2 = Couteau de cuisine</li>
+                <li>3 = Masse</li>
+            </ul>
+        </ul>
+    </Card>
+    <Card title="Le Spectre" icon="document">
+        <ul>
+            <li>Apparition : Quand le jeton est retourné (où ?)</li>
+            <li>Déplacement : 1 case par tour</li>
+            <li>Dégats :</li>
+            <ul>
+                <li>1 vie pour les joueurs à 2 cases du Spectre</li>
+                <li>2 vies pour les joueurs à 1 case du Spectre</li>
+            </ul>
+        </ul>
+    </Card>
+</CardGrid>

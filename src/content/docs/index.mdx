@@ -1,0 +1,65 @@
+---
+title: Spectre
+description: Site des règles du jeu Spectre.
+# template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+    tagline: Joueuses et joueurs, bienvenus !
+    image:
+        file: ../../assets/Swords.svg
+    # actions:
+    #     - text: Example Guide
+    #       link: /guides/example/
+    #       icon: right-arrow
+    #     - text: Read the Starlight docs
+    #       link: https://starlight.astro.build
+    #       icon: external
+    #       variant: minimal
+---
+
+import {
+    Card,
+    CardGrid,
+    LinkCard,
+    LinkButton,
+} from "@astrojs/starlight/components";
+
+# Introduction
+
+Spectre ! Village fantôme abandonné. Déserté par les hommes qui l'ont ainsi renommé. Rayé de la carte, il n'existe plus. Et tous les gens du coin, ne l'ont jamais vu. Et pourtant, quelque chose subsiste encore. On ne sait pas ce que c'est mais ça pu la mort. Le soleil n'y brille jamais, les nuages sont toujours bas. On s'y sent mal à l'aise, il y fait toujours froid. Obscurs et sombres sur un filet de vent. Un village hanté de quelques milliers d'âmes. Massacrées ici par on ne sait qu'elle drame.[^1][^2]
+
+[^1]: _(1 niveau d'XP d'office au premier joueur qui sait de quelle chanson est tirée cette intro et par quel groupe elle est jouée.)_
+
+[^2]: _Spectre est un jeu de rôle sur plateau fait main sans l'usage d'IA._
+
+## But du jeu
+
+Dans ce jeu, vous allez devoir fouiller des zones pour faire apparaître le seigneur de Spectre et trouver les parties d'objets qui permettront de l'anéantir.
+
+La partie se termine à la mort du Seigneur (dans le mode vanilla)
+Pour cela vous disposez de 6 héros et d'un ... chat ? Chaque héros à ses capacités de déplacements, d'actions, d'attaque, de soins ...
+Choisissez bien et je vous souhaite bien du courage Aventuriers !
+
+## Et maintenant ?
+
+<CardGrid stagger>
+    <LinkCard
+        title="Règles du jeu"
+        href="/rules/start"
+        description="Déroulement d'une partie."
+    ></LinkCard>
+    <LinkCard
+        title="Les Héros"
+        href=""
+        description="Découvrez les Héros du jeu."
+    ></LinkCard>
+    <LinkCard
+        title="Les Monstres"
+        href=""
+        description="Découvrez les Monstres du jeu."
+    ></LinkCard>
+    <LinkCard
+        title="Autres modes de jeu"
+        href=""
+        description="Découvrez les autres façons de jouer à Spectre."
+    ></LinkCard>
+</CardGrid>
