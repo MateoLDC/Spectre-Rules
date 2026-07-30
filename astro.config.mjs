@@ -4,6 +4,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+    site: "https://mateoldc.github.io",
+    base: "/Spectre-Rules/",
     integrations: [
         starlight({
             title: "Spectre",
